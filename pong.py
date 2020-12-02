@@ -81,7 +81,6 @@ window.onkeypress(paddle_b_down, "Down")
 while True:
     window.update()
 
-
     #Move ball
     ball.setx(ball.xcor() + ball.dx)
     ball.sety(ball.ycor() + ball.dy)
@@ -129,7 +128,6 @@ while True:
 
     if paddle_b.ycor() > 250:
         paddle_b.sety(250)
-
 
 
 
